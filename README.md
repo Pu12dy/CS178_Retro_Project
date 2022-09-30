@@ -8,3 +8,4 @@ Learning outcomes: Verilog programming and hardware emulation as well as basic s
 Are multiple teams accepted? Yes
 Tools: FPGA boards such as Digilent Zybo Z7, Xilinx Vivado
 Contact information: allan.knight@ucr.edu or allan@cs.ucr.edu
+
