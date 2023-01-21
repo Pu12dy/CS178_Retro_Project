@@ -1,0 +1,27 @@
+;; *************** HUD_UPDATES.dat ***************
+;; HUD includes export. Friday, January 20, 2023 4:04:51 PM
+
+updateHudElement0:
+ RTS
+
+updateHudElement1:
+ RTS
+
+updateHudElement2:
+ RTS
+
+updateHudElement3:
+ RTS
+
+updateHudElement4:
+ RTS
+
+updateHudElement5:
+ RTS
+
+updateHudElement6:
+ RTS
+
+updateHudElement7:
+ RTS
+
