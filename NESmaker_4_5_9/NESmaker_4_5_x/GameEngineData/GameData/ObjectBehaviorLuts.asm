@@ -1,4 +1,4 @@
 ;; *************** ObjectBehaviorLuts.asm ***************
-;; Object Behavior LUT export. Friday, January 20, 2023 4:04:51 PM
+;; Object Behavior LUT export. Tuesday, January 24, 2023 11:08:12 AM
 
 

@@ -1,5 +1,5 @@
 ;; *************** ObjectStatusPointers.asm ***************
-;; Object Pointers export. Friday, January 20, 2023 4:04:51 PM
+;; Object Pointers export. Tuesday, January 24, 2023 11:08:12 AM
 
 CREATE_STATE_POINTER_LO: 
 CREATE_STATE_POINTER_HI: 

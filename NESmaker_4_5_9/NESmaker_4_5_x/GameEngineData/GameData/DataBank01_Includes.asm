@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Friday, January 20, 2023 4:04:51 PM
+;; Script data export. Tuesday, January 24, 2023 11:08:12 AM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_simpleScrollLeft.asm"
 Script01:
@@ -22,3 +22,5 @@ Script09:
 	.include "Routines\BASE_4_5\Game\inputScripts\stopCamera.asm"
 Script0a:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_stopScrolling.asm"
+Script0b:
+	.include "Routines\BASE_4_5\Game\inputScripts\startGameWithNewContinuePoints.asm"

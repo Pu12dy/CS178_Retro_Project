@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Friday, January 20, 2023 4:04:51 PM
+;; Monster list export. Tuesday, January 24, 2023 11:08:12 AM
 
 ;;;; 0	GameItem: Player ID=0
 ;;;; 1	GameItem: Melee ID=1
