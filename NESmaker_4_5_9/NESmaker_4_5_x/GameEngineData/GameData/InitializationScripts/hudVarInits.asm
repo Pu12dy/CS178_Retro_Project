@@ -1,11 +1,13 @@
 
-;; UserDefined var init export. Tuesday, January 24, 2023 1:57:27 PM
+;; UserDefined var init export. Wednesday, February 1, 2023 3:25:09 PM
 
 LDA #3 ; User Defined Var 0
 STA myLives
-LDA #5 ; User Defined Var 1
+LDA #3 ; User Defined Var 1
+STA myHealth
+LDA #5 ; User Defined Var 2
 STA myAmmo
-LDA #0 ; User Defined Var 2
-STA myKeys
 LDA #0 ; User Defined Var 3
-STA myPrizes
+STA myKeys
+LDA #3 ; User Defined Var 4
+STA myMaxHealth

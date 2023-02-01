@@ -1,26 +1,28 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Tuesday, January 24, 2023 1:57:27 PM
+;; Script data export. Wednesday, February 1, 2023 3:25:09 PM
 Script00:
-	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_simpleScrollLeft.asm"
-Script01:
-	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_simpleScrollRight.asm"
-Script02:
-	.include "Routines\BASE_4_5\Game\inputScripts\moveDown.asm"
-Script03:
-	.include "Routines\BASE_4_5\Game\inputScripts\moveLeft.asm"
-Script04:
 	.include "Routines\BASE_4_5\Game\inputScripts\moveRight.asm"
-Script05:
-	.include "Routines\BASE_4_5\Game\inputScripts\moveUp.asm"
-Script06:
+Script01:
+	.include "Routines\BASE_4_5\Game\inputScripts\moveLeft.asm"
+Script02:
+	.include "Routines\BASE_4_5\Game\MOD_MetroidVania\Inputs\changeActionToMoving_unlessJumping.asm"
+Script03:
+	.include "Routines\BASE_4_5\Game\MOD_MetroidVania\Inputs\changeActionToStop_unlessJumping.asm"
+Script04:
 	.include "Routines\BASE_4_5\Game\inputScripts\stopMoving.asm"
+Script05:
+	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_simpleScrollRight.asm"
+Script06:
+	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_simpleScrollLeft.asm"
 Script07:
-	.include "Routines\BASE_4_5\Game\inputScripts\stopCamera.asm"
-Script08:
 	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\do_stopScrolling.asm"
+Script08:
+	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\jump_throughPlat.asm"
 Script09:
-	.include "Routines\BASE_4_5\Game\inputScripts\startGameWithNewContinuePoints.asm"
+	.include "Routines\BASE_4_5\Game\MOD_PlatformerBase\Inputs\varJump.asm"
 Script0a:
-	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\moveRight_ActionPlatformer.asm"
+	.include "Routines\BASE_4_5\Game\MOD_MetroidVania\Inputs\shootProjectile_scrolling_SuperAmmo.asm"
 Script0b:
-	.include "Routines\BASE_4_5\Game\MOD_ArcadePlatformerBase\Inputs\moveLeft_ActionPlatformer.asm"
+	.include "Routines\BASE_4_5\Game\MOD_MetroidVania\Inputs\changeActionToJumping.asm"
+Script0c:
+	.include "Routines\BASE_4_5\Game\inputScripts\startGameWithNewContinuePoints.asm"
