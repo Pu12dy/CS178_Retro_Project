@@ -1,63 +1,51 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 0 GameItem: Player
+;;;; 0 GameItem: Ship
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Player
-;; Animations = 4
+;; Monster = Ship
+;; Animations = 3
 GameItem0_Lo:
-;; AnimationType = idle
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_1, <GameItem0_0
+;; AnimationType = Straight
+	.db <GameItem0_2, <GameItem0_2
+	.db <GameItem0_0, <GameItem0_1
+	.db <GameItem0_1, <GameItem0_1
+	.db <GameItem0_0, <GameItem0_2
 
-;; AnimationType = run
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_2, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_8, <GameItem0_0
+;; AnimationType = down
+	.db <GameItem0_2, <GameItem0_2
+	.db <GameItem0_0, <GameItem0_1
+	.db <GameItem0_1, <GameItem0_1
+	.db <GameItem0_0, <GameItem0_2
 
-;; AnimationType = jump
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_4, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_5, <GameItem0_0
-
-;; AnimationType = hurt
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_6, <GameItem0_0
-	.db <GameItem0_0, <GameItem0_0
-	.db <GameItem0_7, <GameItem0_0
+;; AnimationType = up
+	.db <GameItem0_2, <GameItem0_2
+	.db <GameItem0_0, <GameItem0_1
+	.db <GameItem0_1, <GameItem0_1
+	.db <GameItem0_0, <GameItem0_2
 
 GameItem0_Hi:
-;; AnimationType = idle
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_1, >GameItem0_0
+;; AnimationType = Straight
+	.db >GameItem0_2, >GameItem0_2
+	.db >GameItem0_0, >GameItem0_1
+	.db >GameItem0_1, >GameItem0_1
+	.db >GameItem0_0, >GameItem0_2
 
-;; AnimationType = run
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_2, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_8, >GameItem0_0
+;; AnimationType = down
+	.db >GameItem0_2, >GameItem0_2
+	.db >GameItem0_0, >GameItem0_1
+	.db >GameItem0_1, >GameItem0_1
+	.db >GameItem0_0, >GameItem0_2
 
-;; AnimationType = jump
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_4, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_5, >GameItem0_0
-
-;; AnimationType = hurt
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_6, >GameItem0_0
-	.db >GameItem0_0, >GameItem0_0
-	.db >GameItem0_7, >GameItem0_0
+;; AnimationType = up
+	.db >GameItem0_2, >GameItem0_2
+	.db >GameItem0_0, >GameItem0_1
+	.db >GameItem0_1, >GameItem0_1
+	.db >GameItem0_0, >GameItem0_2
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 1 GameItem: proj
+;;;; 1 GameItem: missile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = proj
+;; Monster = missile
 ;; Animations = 1
 GameItem1_Lo:
 ;; AnimationType = Default
@@ -75,9 +63,9 @@ GameItem1_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 2 GameItem: megaProj
+;;;; 2 GameItem: monster weapon
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = megaProj
+;; Monster = monster weapon
 ;; Animations = 1
 GameItem2_Lo:
 ;; AnimationType = Default
@@ -95,9 +83,9 @@ GameItem2_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 3 GameItem: HealthPickup
+;;;; 3 GameItem: Projectile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = HealthPickup
+;; Monster = Projectile
 ;; Animations = 1
 GameItem3_Lo:
 ;; AnimationType = Default
@@ -115,9 +103,9 @@ GameItem3_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 4 GameItem: AmmoPickup
+;;;; 4 GameItem: Health Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = AmmoPickup
+;; Monster = Health Pickup
 ;; Animations = 1
 GameItem4_Lo:
 ;; AnimationType = Default
@@ -355,9 +343,9 @@ GameItem15_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 0 Monster ProbeDroid
+;;;; 0 Monster Alien
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = ProbeDroid
+;; Monster = Alien
 ;; Animations = 1
 Object0_Lo:
 ;; AnimationType = Default
@@ -374,9 +362,26 @@ Object0_Hi:
 	.db >Object0_0, >Object0_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 1 Monster AlienShooter
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = AlienShooter
+;; Animations = 1
 Object1_Lo:
+;; AnimationType = Default
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+	.db <Object1_0, <Object1_0
+
 Object1_Hi:
+;; AnimationType = Default
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+	.db >Object1_0, >Object1_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object2_Lo:
 Object2_Hi:

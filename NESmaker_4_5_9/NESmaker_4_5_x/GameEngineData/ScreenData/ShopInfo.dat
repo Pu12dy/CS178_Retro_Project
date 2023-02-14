@@ -1,4 +1,4 @@
-;; Shopinfo data export. Wednesday, February 1, 2023 3:25:08 PM
+;; Shopinfo data export. Tuesday, February 14, 2023 1:16:38 PM
 
 shop_items: 
     .db #$00, #$00, #$00, #$00 ;shop shop00 

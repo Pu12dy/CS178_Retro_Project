@@ -1,20 +1,20 @@
-;; Monster: Player
+;; Monster: Ship
 GameItem0_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$03
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: proj
+;; Monster: missile
 GameItem1_EndAction:		;;EndAnimationType / EndActionType
-	.db #$60, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: megaProj
+;; Monster: monster weapon
 GameItem2_EndAction:		;;EndAnimationType / EndActionType
-	.db #$06, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: HealthPickup
+;; Monster: Projectile
 GameItem3_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: AmmoPickup
+;; Monster: Health Pickup
 GameItem4_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -62,13 +62,13 @@ GameItem14_EndAction:		;;EndAnimationType / EndActionType
 GameItem15_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: ProbeDroid
+;; Monster: Alien
 Object0_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: AlienShooter
 Object1_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_EndAction:

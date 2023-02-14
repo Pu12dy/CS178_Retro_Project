@@ -1,22 +1,22 @@
-;; Monster: Player
+;; Monster: Ship
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$11, #$20, #$00, #$00, #$00, #$00, #$30
+	.db #$00, #$10, #$10, #$10, #$10, #$10, #$10, #$10
 
-;; Monster: proj
+;; Monster: missile
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$01, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: megaProj
+;; Monster: monster weapon
 GameItem2_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$01, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: HealthPickup
+;; Monster: Projectile
 GameItem3_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$02, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: AmmoPickup
+;; Monster: Health Pickup
 GameItem4_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Charge Pickup
 GameItem5_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -62,11 +62,11 @@ GameItem14_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: ProbeDroid
+;; Monster: Alien
 Object0_animSpeedTable:
-	.db #$01, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: AlienShooter
 Object1_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

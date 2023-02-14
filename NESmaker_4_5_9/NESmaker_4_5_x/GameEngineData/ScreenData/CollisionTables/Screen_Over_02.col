@@ -1,6 +1,5 @@
-;; *************** NULL SCREEN ***************
-;; Collision data export. Wednesday, February 1, 2023 3:25:07 PM
-;; GraphicBankID = 0x00
+;; Collision data export. Tuesday, February 14, 2023 1:16:37 PM
+;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
 ;; Collision:
@@ -43,9 +42,9 @@ Screen_Over_02_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f3
+	.db #$58
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f3
+	.db #$c5
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -71,7 +70,7 @@ Screen_Over_02_info:
 	.db #$00
 	.db #$00
 ;; Byte 27-29: Monster Palette1:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal1 BYTES (Day/Night/DayTr)
-	.db #$00
+	.db #$03
 	.db #$00
 	.db #$00
 ;; Byte 30-32: Monster Palette2:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal2 BYTES (Day/Night/DayTr)
@@ -99,9 +98,9 @@ Screen_Over_02_info:
 ;; Byte 42: Monster 4 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 43: Monster 1 Day ID
-	.db #$00
+	.db #$10
 ;; Byte 44: Monster 2 Day ID
-	.db #$00
+	.db #$11
 ;; Byte 45: Monster 3 Day ID
 	.db #$00
 ;; Byte 46: Monster 4 Day ID
