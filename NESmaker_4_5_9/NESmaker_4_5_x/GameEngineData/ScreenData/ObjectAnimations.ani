@@ -130,10 +130,12 @@ GameItem5_0:
 ;;;; 6 GameItem: Key Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Key Pickup
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem6_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -141,10 +143,12 @@ GameItem6_0:
 ;;;; 7 GameItem: Currency Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Currency Pickup
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem7_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -152,10 +156,12 @@ GameItem7_0:
 ;;;; 8 GameItem: Effect 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 0
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem8_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -163,10 +169,12 @@ GameItem8_0:
 ;;;; 9 GameItem: Effect 1
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 1
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem9_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -174,10 +182,12 @@ GameItem9_0:
 ;;;; 10 GameItem: Effect 2
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 2
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem10_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -185,10 +195,12 @@ GameItem10_0:
 ;;;; 11 GameItem: Effect 3
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 3
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem11_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -196,10 +208,12 @@ GameItem11_0:
 ;;;; 12 GameItem: Effect 4
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 4
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem12_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -207,10 +221,12 @@ GameItem12_0:
 ;;;; 13 GameItem: Effect 5
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 5
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem13_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -218,10 +234,12 @@ GameItem13_0:
 ;;;; 14 GameItem: Effect 6
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 6
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem14_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 
@@ -229,10 +247,12 @@ GameItem14_0:
 ;;;; 15 GameItem: Effect 7
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 7
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem15_0:
-.db #$00
+.db #$15
+.db #%00000000
+.db #$25
 .db #%00000000
 
 

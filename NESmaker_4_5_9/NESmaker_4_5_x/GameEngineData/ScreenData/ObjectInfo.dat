@@ -70,101 +70,101 @@ GameItem5_0:
 ;;;; 6 GameItem: Key Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Key Pickup
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem6_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 7 GameItem: Currency Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Currency Pickup
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem7_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 8 GameItem: Effect 0
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 0
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem8_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 9 GameItem: Effect 1
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 1
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem9_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 10 GameItem: Effect 2
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 2
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem10_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 11 GameItem: Effect 3
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 3
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem11_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 12 GameItem: Effect 4
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 4
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem12_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 13 GameItem: Effect 5
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 5
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem13_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 14 GameItem: Effect 6
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 6
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem14_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 15 GameItem: Effect 7
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Effect 7
-;; Size = 1 by1
+;; Size = 1 by2
 ;; Animation = DefaultAnimation
 GameItem15_0:
 .db #$1; frame count
-.db #$00, #%00000000
+.db #$15, #%00000000, #$25, #%00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;; 0 Monster Alien
@@ -191,5 +191,5 @@ Object1_0:
 .db #$59, #%00000000, #$5a, #%00000000, #$5b, #%00000000, #$69, #%00000000, #$6a, #%00000000, #$6b, #%00000000, #$79, #%00000000, #$7a, #%00000000, #$7b, #%00000000
 
 Object_total_sprites:
-.db 9,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1
+.db 9,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2
 .db 16,9
