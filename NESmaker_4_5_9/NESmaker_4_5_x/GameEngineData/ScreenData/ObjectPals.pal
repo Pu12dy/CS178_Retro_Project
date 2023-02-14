@@ -7,7 +7,7 @@ objectPal_2:
 objectPal_3:
 .db #$0f, #$15, #$25, #$35
 objectPal_4:
-.db #$0f, #$01, #$05, #$30
+.db #$0f, #$16, #$27, #$38
 objectPal_5:
 .db #$0f, #$01, #$05, #$30
 objectPal_6:

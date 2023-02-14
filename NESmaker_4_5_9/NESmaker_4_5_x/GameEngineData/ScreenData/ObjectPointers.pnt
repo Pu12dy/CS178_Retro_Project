@@ -183,9 +183,9 @@ GameItem7_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 8 GameItem: Effect 0
+;;;; 8 GameItem: Player death
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Effect 0
+;; Monster = Player death
 ;; Animations = 1
 GameItem8_Lo:
 ;; AnimationType = Default

@@ -30,9 +30,9 @@ GameItem6_EndAction:		;;EndAnimationType / EndActionType
 GameItem7_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Player death
 GameItem8_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$b0, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 1
 GameItem9_EndAction:		;;EndAnimationType / EndActionType
