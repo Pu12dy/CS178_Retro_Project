@@ -1,31 +1,31 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Tuesday, February 14, 2023 2:45:46 PM
+;; Script link export. Thursday, February 16, 2023 11:43:28 AM
 ScriptAddressLo:
-	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05
+	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08
 ScriptAddressHi:
-	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05
+	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07, #>Script08
 
 TargetScriptBank:
-	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
+	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
 
 ;;=======================PRESSED=======================
 DefinedInputs_Pressed:
-	.db #%00000010
+	.db #%00000010, #%00001000
 
 DefinedScriptGameStates_Pressed:
-	.db #$00
+	.db #$00, #$01
 
 DefinedTargetObjects_Pressed:
-	.db #$00
+	.db #$00, #$00
 
 DefinedTargetController_Pressed:
-	.db #$00
+	.db #$00, #$00
 
 TargetState_Pressed:
-	.db #$00
+	.db #$00, #$00
 
 DefinedTargetScripts_Pressed:
-	.db #$05
+	.db #$05, #$06
 
 ;;=======================RELEASE=======================
 DefinedInputs_Released:
