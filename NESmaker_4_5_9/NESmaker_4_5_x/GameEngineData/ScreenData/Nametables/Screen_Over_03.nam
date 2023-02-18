@@ -1,4 +1,4 @@
-;; Screen data export. Saturday, February 18, 2023 11:28:27 AM
+;; Screen data export. Saturday, February 18, 2023 11:35:52 AM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 .db #$46, #$08, #$08, #$00, #$48, #$00, #$24, #$08, #$00, #$46, #$24, #$00, #$24, #$00, #$24, #$24
