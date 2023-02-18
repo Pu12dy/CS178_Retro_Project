@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Saturday, February 18, 2023 9:56:53 AM
+;; Monster list export. Saturday, February 18, 2023 11:28:30 AM
 
 ;;;; 0	GameItem: Ship ID=0
 ;;;; 1	GameItem: missile ID=1

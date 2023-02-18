@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Saturday, February 18, 2023 9:56:53 AM
+;; Script data export. Saturday, February 18, 2023 11:28:30 AM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_shooter\Input\moveRight_shooter.asm"
 Script01:

@@ -1,7 +1,6 @@
-;; *************** NULL SCREEN ***************
-;; Collision data export. Saturday, February 18, 2023 9:56:51 AM
-;; GraphicBankID = 0x00
-;; PaletteID = 0x00
+;; Collision data export. Saturday, February 18, 2023 11:28:27 AM
+;; GraphicBankID = 0x01
+;; PaletteID = 0x01
 
 ;; Collision:
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
@@ -26,7 +25,7 @@ Screen_Over_21_info:
 ;; Byte 2: Bank info screen bank(4bits)/graphic bank(2 bits)/00(2bits) CHANGED ***** NightTriggeredMonsterGroupByte
 	.db #$00
 ;; Byte 3: ScreenPaletteId
-	.db #$00
+	.db #$01
 ;; Byte 4: MainTileId(4) / ScreenTileID(4) CHANGED ***** ObjectPaletteTriggeredNight1ID
 	.db #$00
 ;; Byte 5: All screen bits (Respawn/DayNight/Paths/Boss/Dark/Underground/Animated/ShowText)
@@ -166,7 +165,7 @@ Screen_Over_21_info:
 ;; Byte 77: Tileset Layout (ABCDEFxx) (ABCDEF: 0=Main, Path,HUD / 1=screen
 	.db #$40
 ;; Byte 78: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$10
+	.db #$11
 ;; Byte 79: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
 	.db #$10
 ;; Byte 80: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
