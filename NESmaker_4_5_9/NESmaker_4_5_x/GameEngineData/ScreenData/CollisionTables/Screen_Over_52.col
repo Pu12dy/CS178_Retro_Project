@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, February 18, 2023 1:01:35 PM
+;; Collision data export. Saturday, February 18, 2023 1:44:15 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x02
 
@@ -16,8 +16,8 @@
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%00100010, #%00000000, #%00000000, #%00100010, #%00000000, #%00000000
+.db #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001, #%00010001
 
 Screen_Over_52_info:
 ;; Byte 1: ScreenType 
@@ -42,7 +42,7 @@ Screen_Over_52_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f3
+	.db #$75
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -98,13 +98,13 @@ Screen_Over_52_info:
 ;; Byte 42: Monster 4 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 43: Monster 1 Day ID
-	.db #$00
+	.db #$04
 ;; Byte 44: Monster 2 Day ID
 	.db #$00
 ;; Byte 45: Monster 3 Day ID
 	.db #$00
 ;; Byte 46: Monster 4 Day ID
-	.db #$00
+	.db #$04
 ;; Byte 47: Monster 1 Day Triggered ID
 	.db #$00
 ;; Byte 48: Monster 2 Day Triggered ID
@@ -130,11 +130,11 @@ Screen_Over_52_info:
 ;; Byte 58: Monster 4 Night Triggered ID
 	.db #$00
 ;; Byte 59: Song Day ID
-	.db #$00
+	.db #$02
 ;; Byte 60: Song Day Triggered ID
 	.db #$00
 ;; Byte 61: Song Night ID
-	.db #$00
+	.db #$02
 ;; Byte 62: Song Night Triggered ID
 	.db #$00
 ;; Byte 63: 2nd screen bits group (UserScreenFlag0-7)

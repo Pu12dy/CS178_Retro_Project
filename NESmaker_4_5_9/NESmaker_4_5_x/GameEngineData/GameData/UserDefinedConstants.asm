@@ -1,5 +1,5 @@
 ;; *************** UserDefinedConstants.asm ***************
-;; UserDefinedConstants export. Saturday, February 18, 2023 1:01:37 PM
+;; UserDefinedConstants export. Saturday, February 18, 2023 1:44:18 PM
 
 OBJECT_OBSERVES_INPUT  = $20
 OBJECT_OBSERVES_PHYSICS  = $10

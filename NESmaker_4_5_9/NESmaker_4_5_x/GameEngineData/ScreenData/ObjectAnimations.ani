@@ -104,12 +104,16 @@ GameItem3_0:
 ;;;; 4 GameItem: Health Pickup
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Health Pickup
-;; Size = 1 by2
+;; Size = 2 by2
 ;; Animation = DefaultAnimation
 GameItem4_0:
-.db #$15
+.db #$0e
 .db #%00000000
-.db #$25
+.db #$0f
+.db #%00000000
+.db #$1e
+.db #%00000000
+.db #$1f
 .db #%00000000
 
 

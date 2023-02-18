@@ -466,7 +466,7 @@
     <Band20Gain>0</Band20Gain>
   </AudioInfo>
   <VideoInfo>
-    <ShowFPS>false</ShowFPS>
+    <ShowFPS>true</ShowFPS>
     <OverscanLeft>0</OverscanLeft>
     <OverscanRight>0</OverscanRight>
     <OverscanTop>0</OverscanTop>
@@ -1912,8 +1912,8 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>374</X>
-    <Y>0</Y>
+    <X>716</X>
+    <Y>71</Y>
   </WindowLocation>
   <WindowSize>
     <Width>883</Width>
