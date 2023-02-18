@@ -1,5 +1,5 @@
 ;; *************** ZP_RAM.asm ***************
-;; Zero Page export. Thursday, December 1, 2022 6:16:31 PM
+;; Zero Page export. Thursday, February 16, 2023 11:43:28 AM
 
 temp .dsb 1
 temp1 .dsb 1
@@ -78,6 +78,8 @@ song_list_address .dsb 2
 sfx_list_address .dsb 2
 song_address .dsb 2
 apu_register_sets .dsb 20
+myHealth .dsb 1
+myScore .dsb 4
 value .dsb 8
 hudUpdates .dsb 1
 stringGroupPointer .dsb 1
@@ -93,5 +95,7 @@ gameStatusByte .dsb 1
 gameTimerTicks .dsb 1
 gameTimerLo .dsb 1
 gameTimerHi .dsb 1
-actionFrame_hold .dsb 1
+screenPrev .dsb 1
 textPosHold .dsb 2
+bossByte .dsb 1
+bossTile_hold .dsb 1

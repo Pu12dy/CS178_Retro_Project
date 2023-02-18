@@ -471,7 +471,7 @@
     <OverscanRight>0</OverscanRight>
     <OverscanTop>0</OverscanTop>
     <OverscanBottom>0</OverscanBottom>
-    <VideoScale>3.8583333333333334</VideoScale>
+    <VideoScale>3.3875</VideoScale>
     <VideoFilter>None</VideoFilter>
     <UseBilinearInterpolation>false</UseBilinearInterpolation>
     <AspectRatio>NoStretching</AspectRatio>
@@ -1368,7 +1368,7 @@
     <PpuExtraScanlinesAfterNmi>0</PpuExtraScanlinesAfterNmi>
     <RamPowerOnState>AllZeros</RamPowerOnState>
     <ShowLagCounter>false</ShowLagCounter>
-    <EmulationSpeed>100</EmulationSpeed>
+    <EmulationSpeed>75</EmulationSpeed>
     <TurboSpeed>300</TurboSpeed>
     <RewindSpeed>100</RewindSpeed>
   </EmulationInfo>
@@ -1376,14 +1376,6 @@
     <RecentItem>
       <RomFile>
         <Path>game.nes</Path>
-        <InnerFile />
-        <InnerFileIndex>0</InnerFileIndex>
-      </RomFile>
-      <PatchFile xsi:nil="true" />
-    </RecentItem>
-    <RecentItem>
-      <RomFile>
-        <Path>E:\NES_Maker\f547d2_1de094f2765a411bb2b3e5718b91636c\NESmaker_4_5_9\NESmaker_4_5_x\Emulator\game.nes</Path>
         <InnerFile />
         <InnerFileIndex>0</InnerFileIndex>
       </RomFile>
@@ -1448,6 +1440,14 @@
     <RecentItem>
       <RomFile>
         <Path>C:\Users\Granato\Desktop\NESmaker_Archive\MysticOrigins_era\MysticOrigins_final\GameEngineData\game.nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
+        <Path>C:\Users\Granato\Downloads\KROOM_prototype_4.0.11.nes</Path>
         <InnerFile />
         <InnerFileIndex>0</InnerFileIndex>
       </RomFile>
@@ -1912,12 +1912,12 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>478</X>
-    <Y>28</Y>
+    <X>374</X>
+    <Y>0</Y>
   </WindowLocation>
   <WindowSize>
-    <Width>1003</Width>
-    <Height>989</Height>
+    <Width>883</Width>
+    <Height>876</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>

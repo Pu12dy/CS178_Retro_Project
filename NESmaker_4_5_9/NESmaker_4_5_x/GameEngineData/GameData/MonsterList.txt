@@ -1,15 +1,15 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Thursday, December 1, 2022 6:16:31 PM
+;; Monster list export. Thursday, February 16, 2023 11:43:28 AM
 
-;;;; 0	GameItem: Player ID=0
-;;;; 1	GameItem: Melee ID=1
-;;;; 2	GameItem: Projectile Source ID=2
+;;;; 0	GameItem: Ship ID=0
+;;;; 1	GameItem: missile ID=1
+;;;; 2	GameItem: monster weapon ID=2
 ;;;; 3	GameItem: Projectile ID=3
 ;;;; 4	GameItem: Health Pickup ID=4
 ;;;; 5	GameItem: Charge Pickup ID=5
 ;;;; 6	GameItem: Key Pickup ID=6
 ;;;; 7	GameItem: Currency Pickup ID=7
-;;;; 8	GameItem: Effect 0 ID=8
+;;;; 8	GameItem: Player death ID=8
 ;;;; 9	GameItem: Effect 1 ID=9
 ;;;; 10	GameItem: Effect 2 ID=10
 ;;;; 11	GameItem: Effect 3 ID=11
@@ -17,3 +17,5 @@
 ;;;; 13	GameItem: Effect 5 ID=13
 ;;;; 14	GameItem: Effect 6 ID=14
 ;;;; 15	GameItem: Effect 7 ID=15
+;;;; 0	Monster: Alien ID=0
+;;;; 1	Monster: AlienShooter ID=1

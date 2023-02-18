@@ -1,14 +1,14 @@
-;; Monster: Player
+;; Monster: Ship
 GameItem0_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Melee
+;; Monster: missile
 GameItem1_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Projectile Source
+;; Monster: monster weapon
 GameItem2_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Projectile
 GameItem3_ActionTypes:		;;ActionTimer / ActionTypeID
@@ -30,7 +30,7 @@ GameItem6_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem7_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Player death
 GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -62,13 +62,13 @@ GameItem14_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Alien
 Object0_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: AlienShooter
 Object1_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$05, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_ActionTypes:

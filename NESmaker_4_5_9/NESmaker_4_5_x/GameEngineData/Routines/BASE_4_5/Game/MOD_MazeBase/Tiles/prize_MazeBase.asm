@@ -19,6 +19,6 @@ BEQ +isPlayer
 	AddValue #$06, myScore, #$1, #$02
 	UpdateHudElement #$03
 	
-	;PlaySound #sfx_cursor
+	PlaySound #sfx_cursor
 	
 	+notPlayer

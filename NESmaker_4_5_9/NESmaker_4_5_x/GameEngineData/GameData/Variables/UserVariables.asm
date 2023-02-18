@@ -1,12 +1,10 @@
 ;; *************** UserVariables.asm ***************
 
 ;; *************** User Defined Vars ***************
-;; User Defined Vars export. Thursday, December 1, 2022 6:16:31 PM
+;; User Defined Vars export. Thursday, February 16, 2023 11:43:28 AM
 
 myLives	.dsb 1
-myScore	.dsb 1
-myScore_10	.dsb 1
-myScore_100	.dsb 1
-myScore_1000	.dsb 1
-myScore_10000	.dsb 1
-myScore_100000	.dsb 1
+myAmmo	.dsb 1
+myKeys	.dsb 1
+bulletTimer	.dsb 1
+bossHealth	.dsb 1

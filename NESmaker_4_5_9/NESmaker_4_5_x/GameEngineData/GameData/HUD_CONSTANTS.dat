@@ -1,5 +1,5 @@
 ;; *************** HUD_CONSTANTS.dat ***************
-;; Constants export. Thursday, December 1, 2022 6:16:31 PM
+;; Constants export. Thursday, February 16, 2023 11:43:28 AM
 BLANK_TILE = $00
 _0 = $10
 _1 = $11
@@ -71,9 +71,9 @@ _ENDSHOP = $FC
 _ENDTRIGGER = $F9
 
 HUD_ = #%10000000
-HUD_myLives = #%01000000
-HUD_myHealth = #%00100000
-HUD_myScore = #%00010000
+HUD_ = #%01000000
+HUD_myLives = #%00100000
+HUD_myAmmo = #%00010000
 HUD_UserVar_4 = #%00001000
 HUD_myKeys = #%00000100
 HUD_UserVar_6 = #%00000010

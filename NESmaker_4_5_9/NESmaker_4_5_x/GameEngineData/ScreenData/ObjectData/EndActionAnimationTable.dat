@@ -1,12 +1,12 @@
-;; Monster: Player
+;; Monster: Ship
 GameItem0_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Melee
+;; Monster: missile
 GameItem1_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Projectile Source
+;; Monster: monster weapon
 GameItem2_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -30,9 +30,9 @@ GameItem6_EndAction:		;;EndAnimationType / EndActionType
 GameItem7_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 0
+;; Monster: Player death
 GameItem8_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$b0, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 1
 GameItem9_EndAction:		;;EndAnimationType / EndActionType
@@ -62,13 +62,13 @@ GameItem14_EndAction:		;;EndAnimationType / EndActionType
 GameItem15_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Alien
 Object0_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: AlienShooter
 Object1_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$00, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object2_EndAction:
