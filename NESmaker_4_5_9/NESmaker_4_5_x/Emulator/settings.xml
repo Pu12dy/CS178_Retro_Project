@@ -471,7 +471,7 @@
     <OverscanRight>0</OverscanRight>
     <OverscanTop>0</OverscanTop>
     <OverscanBottom>0</OverscanBottom>
-    <VideoScale>3.3875</VideoScale>
+    <VideoScale>3.38671875</VideoScale>
     <VideoFilter>None</VideoFilter>
     <UseBilinearInterpolation>false</UseBilinearInterpolation>
     <AspectRatio>NoStretching</AspectRatio>
@@ -1917,7 +1917,7 @@
   </WindowLocation>
   <WindowSize>
     <Width>883</Width>
-    <Height>876</Height>
+    <Height>875</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>
