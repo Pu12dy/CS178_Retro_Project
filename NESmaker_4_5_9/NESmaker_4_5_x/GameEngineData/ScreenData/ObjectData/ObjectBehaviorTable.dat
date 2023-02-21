@@ -72,7 +72,7 @@ Object1_ActionTypes:
 
 ;; Monster: Boss1-1
 Object2_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$05, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object3_ActionTypes:
