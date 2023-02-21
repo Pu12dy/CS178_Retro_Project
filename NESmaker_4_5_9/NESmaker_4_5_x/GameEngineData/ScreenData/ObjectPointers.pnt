@@ -382,9 +382,26 @@ Object1_Hi:
 	.db >Object1_0, >Object1_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 2 Monster Boss1-1
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Boss1-1
+;; Animations = 1
 Object2_Lo:
+;; AnimationType = Default
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+	.db <Object2_0, <Object2_0
+
 Object2_Hi:
+;; AnimationType = Default
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+	.db >Object2_0, >Object2_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object3_Lo:
 Object3_Hi:
