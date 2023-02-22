@@ -1,4 +1,4 @@
-;; Collision data export. Tuesday, February 21, 2023 2:16:48 PM
+;; Collision data export. Wednesday, February 22, 2023 11:29:36 AM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -70,7 +70,7 @@ Screen_Over_05_info:
 	.db #$00
 	.db #$00
 ;; Byte 27-29: Monster Palette1:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal1 BYTES (Day/Night/DayTr)
-	.db #$02
+	.db #$00
 	.db #$00
 	.db #$00
 ;; Byte 30-32: Monster Palette2:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal2 BYTES (Day/Night/DayTr)

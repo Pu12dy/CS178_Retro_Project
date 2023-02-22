@@ -74,23 +74,23 @@ Object1_ActionTypes:
 Object2_ActionTypes:
 	.db #$05, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Ruin Ghost
 Object3_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Ruin Monster2
 Object4_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Bug Monster
 Object5_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Bug
 Object6_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: dummy test
 Object7_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

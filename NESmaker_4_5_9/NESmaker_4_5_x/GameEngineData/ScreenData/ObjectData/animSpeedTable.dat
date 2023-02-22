@@ -74,23 +74,23 @@ Object1_animSpeedTable:
 Object2_animSpeedTable:
 	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Ruin Ghost
 Object3_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Ruin Monster2
 Object4_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Bug Monster
 Object5_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Bug
 Object6_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: dummy test
 Object7_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

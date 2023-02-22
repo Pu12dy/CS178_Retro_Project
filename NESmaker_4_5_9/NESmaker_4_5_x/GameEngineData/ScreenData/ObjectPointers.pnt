@@ -402,21 +402,106 @@ Object2_Hi:
 	.db >Object2_0, >Object2_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 3 Monster Ruin Ghost
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Ruin Ghost
+;; Animations = 1
 Object3_Lo:
+;; AnimationType = Default
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+	.db <Object3_0, <Object3_0
+
 Object3_Hi:
-;;;;;;;;; Null Monster ;;;;;;;;
+;; AnimationType = Default
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+	.db >Object3_0, >Object3_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 4 Monster Ruin Monster2
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Ruin Monster2
+;; Animations = 1
 Object4_Lo:
+;; AnimationType = Default
+	.db <Object4_0, <Object4_0
+	.db <Object4_0, <Object4_0
+	.db <Object4_0, <Object4_0
+	.db <Object4_0, <Object4_0
+
 Object4_Hi:
-;;;;;;;;; Null Monster ;;;;;;;;
+;; AnimationType = Default
+	.db >Object4_0, >Object4_0
+	.db >Object4_0, >Object4_0
+	.db >Object4_0, >Object4_0
+	.db >Object4_0, >Object4_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 5 Monster Bug Monster
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Bug Monster
+;; Animations = 1
 Object5_Lo:
+;; AnimationType = Default
+	.db <Object5_0, <Object5_0
+	.db <Object5_0, <Object5_0
+	.db <Object5_0, <Object5_0
+	.db <Object5_0, <Object5_0
+
 Object5_Hi:
-;;;;;;;;; Null Monster ;;;;;;;;
+;; AnimationType = Default
+	.db >Object5_0, >Object5_0
+	.db >Object5_0, >Object5_0
+	.db >Object5_0, >Object5_0
+	.db >Object5_0, >Object5_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 6 Monster Bug
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Bug
+;; Animations = 1
 Object6_Lo:
+;; AnimationType = Default
+	.db <Object6_0, <Object6_0
+	.db <Object6_0, <Object6_0
+	.db <Object6_0, <Object6_0
+	.db <Object6_0, <Object6_0
+
 Object6_Hi:
-;;;;;;;;; Null Monster ;;;;;;;;
+;; AnimationType = Default
+	.db >Object6_0, >Object6_0
+	.db >Object6_0, >Object6_0
+	.db >Object6_0, >Object6_0
+	.db >Object6_0, >Object6_0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 7 Monster dummy test
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = dummy test
+;; Animations = 1
 Object7_Lo:
+;; AnimationType = Default
+	.db <Object7_0, <Object7_0
+	.db <Object7_0, <Object7_0
+	.db <Object7_0, <Object7_0
+	.db <Object7_0, <Object7_0
+
 Object7_Hi:
+;; AnimationType = Default
+	.db >Object7_0, >Object7_0
+	.db >Object7_0, >Object7_0
+	.db >Object7_0, >Object7_0
+	.db >Object7_0, >Object7_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object8_Lo:
 Object8_Hi:

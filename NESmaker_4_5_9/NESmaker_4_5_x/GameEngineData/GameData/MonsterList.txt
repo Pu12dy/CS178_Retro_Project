@@ -1,5 +1,5 @@
 ;; *************** MonsterList.txt ***************
-;; Monster list export. Tuesday, February 21, 2023 2:16:50 PM
+;; Monster list export. Wednesday, February 22, 2023 11:29:38 AM
 
 ;;;; 0	GameItem: Ship ID=0
 ;;;; 1	GameItem: missile ID=1
@@ -20,3 +20,8 @@
 ;;;; 0	Monster: Alien ID=0
 ;;;; 1	Monster: AlienShooter ID=1
 ;;;; 2	Monster: Boss1-1 ID=2
+;;;; 3	Monster: Ruin Ghost ID=3
+;;;; 4	Monster: Ruin Monster2 ID=4
+;;;; 5	Monster: Bug Monster ID=5
+;;;; 6	Monster: Bug ID=6
+;;;; 7	Monster: dummy test ID=7
