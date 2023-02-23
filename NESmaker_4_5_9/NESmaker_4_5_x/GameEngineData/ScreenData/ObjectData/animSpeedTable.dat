@@ -90,7 +90,7 @@ Object5_animSpeedTable:
 Object6_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: dummy test
+;; Monster: NULL
 Object7_animSpeedTable:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

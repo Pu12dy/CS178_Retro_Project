@@ -90,7 +90,7 @@ Object5_EndAction:
 Object6_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: dummy test
+;; Monster: NULL
 Object7_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

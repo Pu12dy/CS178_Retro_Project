@@ -90,7 +90,7 @@ Object5_ActionTypes:
 Object6_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: dummy test
+;; Monster: NULL
 Object7_ActionTypes:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
