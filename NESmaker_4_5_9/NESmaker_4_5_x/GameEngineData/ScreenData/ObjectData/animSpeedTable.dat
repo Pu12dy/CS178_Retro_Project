@@ -84,11 +84,11 @@ Object4_animSpeedTable:
 
 ;; Monster: Bug Monster
 Object5_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Bug
 Object6_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object7_animSpeedTable:

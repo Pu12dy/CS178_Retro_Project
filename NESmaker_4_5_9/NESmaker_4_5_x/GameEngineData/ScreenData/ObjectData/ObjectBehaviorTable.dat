@@ -84,11 +84,11 @@ Object4_ActionTypes:
 
 ;; Monster: Bug Monster
 Object5_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Bug
 Object6_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object7_ActionTypes:
