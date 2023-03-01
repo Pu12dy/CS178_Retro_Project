@@ -1,4 +1,4 @@
-;; Collision data export. Tuesday, February 28, 2023 4:46:34 PM
+;; Collision data export. Tuesday, February 28, 2023 5:55:57 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x03
 
@@ -30,7 +30,7 @@ Screen_Over_20_info:
 	.db #$00
 ;; Byte 5: All screen bits (Respawn/DayNight/Paths/Boss/Dark/Underground/Animated/ShowText)
 	.db #$00;; Byte 6: ScreenByte01 (Hud/Paths/DayNight/Dark/000/screenSpeed
-	.db #%00000000
+	.db #%10000000
 ;; Byte 7: Path Tile mask
 	.db #$f0
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
@@ -130,7 +130,7 @@ Screen_Over_20_info:
 ;; Byte 58: Monster 4 Night Triggered ID
 	.db #$00
 ;; Byte 59: Song Day ID
-	.db #$00
+	.db #$01
 ;; Byte 60: Song Day Triggered ID
 	.db #$00
 ;; Byte 61: Song Night ID

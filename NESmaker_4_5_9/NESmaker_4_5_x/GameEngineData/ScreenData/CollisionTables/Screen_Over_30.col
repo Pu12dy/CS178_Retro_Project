@@ -1,4 +1,4 @@
-;; Collision data export. Tuesday, February 28, 2023 4:46:34 PM
+;; Collision data export. Tuesday, February 28, 2023 5:55:57 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x02
 
@@ -130,7 +130,7 @@ Screen_Over_30_info:
 ;; Byte 58: Monster 4 Night Triggered ID
 	.db #$00
 ;; Byte 59: Song Day ID
-	.db #$00
+	.db #$03
 ;; Byte 60: Song Day Triggered ID
 	.db #$00
 ;; Byte 61: Song Night ID
