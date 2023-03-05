@@ -76,7 +76,7 @@ Object2_animSpeedTable:
 
 ;; Monster: Ruin Ghost
 Object3_animSpeedTable:
-	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Ruin Monster2
 Object4_animSpeedTable:

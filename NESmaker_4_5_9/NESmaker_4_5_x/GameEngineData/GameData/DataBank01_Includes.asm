@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Tuesday, February 28, 2023 5:55:59 PM
+;; Script data export. Saturday, March 4, 2023 10:12:12 PM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_shooter\Input\moveRight_shooter.asm"
 Script01:
@@ -16,3 +16,5 @@ Script06:
 	.include "Routines\BASE_4_5\Game\Subroutines\doHideHudAndSpritesOnSpecialScreens.asm"
 Script07:
 	.include "Routines\BASE_4_5\Game\inputScripts\startGameWithNewContinuePoints.asm"
+Script08:
+	.include "Routines\BASE_4_5\Game\MOD_shooter\Input\invincibilityTimer.asm"

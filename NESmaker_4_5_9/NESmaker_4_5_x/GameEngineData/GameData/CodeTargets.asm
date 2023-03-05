@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Tuesday, February 28, 2023 5:55:58 PM
+;; Code Target data export. Saturday, March 4, 2023 10:12:11 PM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -106,7 +106,7 @@ SCR_TILE_12 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_13 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_14 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_TILE_15 EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_HANDLE_PLAYER_HURT EQU "Routines\BASE_4_5\Game\MOD_shooter\Common\hurtWithLives_shooter.asm"
+SCR_HANDLE_PLAYER_HURT EQU "Routines\BASE_4_5\Game\MOD_shooter\Common\modified_scripts\hurtWithLives_shooter.asm"
 SCR_HANDLE_MONSTER_HURT EQU "Routines\BASE_4_5\Game\MOD_shooter\Common\doHandleHurtMonster_Shooter_CountMonsters.asm"
 SCR_HANDLE_HUD EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_DRAW_SPRITE_HUD EQU "Routines\BASE_4_5\Game\MOD_shooter\Common\doDrawSpriteHud_Shooter.asm"

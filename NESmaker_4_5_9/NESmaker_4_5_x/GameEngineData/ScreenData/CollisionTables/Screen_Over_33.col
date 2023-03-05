@@ -1,4 +1,4 @@
-;; Collision data export. Tuesday, February 28, 2023 5:55:57 PM
+;; Collision data export. Saturday, March 4, 2023 10:12:10 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x02
 
@@ -42,9 +42,9 @@ Screen_Over_33_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$2a
+	.db #$2b
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$87
+	.db #$99
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 15: Monster 1 Origin Night Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -70,11 +70,11 @@ Screen_Over_33_info:
 	.db #$00
 	.db #$00
 ;; Byte 27-29: Monster Palette1:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal1 BYTES (Day/Night/DayTr)
-	.db #$07
+	.db #$08
 	.db #$00
 	.db #$00
 ;; Byte 30-32: Monster Palette2:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal2 BYTES (Day/Night/DayTr)
-	.db #$07
+	.db #$08
 	.db #$00
 	.db #$00
 ;; Byte 33: MonsterTilesetIDs - Night(4)/Day(4)   (NnnnDddd) big bit is the bank
@@ -140,7 +140,7 @@ Screen_Over_33_info:
 ;; Byte 63: 2nd screen bits group (UserScreenFlag0-7)
 	.db #$00
 ;; Byte 64-67: Monster State Day (GameObj2 D,N,Dt,Nt) 
-	.db #$07
+	.db #$08
 	.db #$00
 	.db #$00
 	.db #$00
@@ -177,7 +177,7 @@ Screen_Over_33_info:
 ;; Byte 83: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
 	.db #$00
 ;; Byte 84-91: GameObj1 D,N,Dt,Nt / GameObj2 D,N,Dt,Nt  ***** changed. now just GameObject1
-	.db #$07
+	.db #$08
 	.db #$00
 	.db #$00
 	.db #$00

@@ -1,12 +1,12 @@
 ;; *************** ScriptTables.asm ***************
-;; Script link export. Tuesday, February 28, 2023 5:55:59 PM
+;; Script link export. Saturday, March 4, 2023 10:12:12 PM
 ScriptAddressLo:
-	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07
+	.db #<Script00, #<Script01, #<Script02, #<Script03, #<Script04, #<Script05, #<Script06, #<Script07, #<Script08
 ScriptAddressHi:
-	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07
+	.db #>Script00, #>Script01, #>Script02, #>Script03, #>Script04, #>Script05, #>Script06, #>Script07, #>Script08
 
 TargetScriptBank:
-	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
+	.db #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1, #DATABANK1
 
 ;;=======================PRESSED=======================
 DefinedInputs_Pressed:
@@ -48,20 +48,20 @@ DefinedTargetScripts_Released:
 
 ;;=======================HOLD=======================
 DefinedInputs_Held:
-	.db #%10000000, #%00100000, #%01000000, #%00010000
+	.db #%10000000, #%00100000, #%01000000, #%00010000, #%00000000
 
 DefinedScriptGameStates_Held:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetObjects_Held:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetController_Held:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00
 
 TargetState_Held:
-	.db #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$00, #$00
 
 DefinedTargetScripts_Held:
-	.db #$00, #$01, #$02, #$03
+	.db #$00, #$01, #$02, #$03, #$08
 

@@ -1,5 +1,5 @@
 
-;; UserDefined var init export. Tuesday, February 28, 2023 5:55:59 PM
+;; UserDefined var init export. Saturday, March 4, 2023 10:12:12 PM
 
 LDA #3 ; User Defined Var 0
 STA myLives
@@ -11,3 +11,5 @@ LDA #0 ; User Defined Var 3
 STA bulletTimer
 LDA #5 ; User Defined Var 4
 STA bossHealth
+LDA #0 ; User Defined Var 5
+STA invincibilityTimer

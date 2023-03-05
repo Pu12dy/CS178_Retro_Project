@@ -7,6 +7,12 @@
 	BEQ +canHurtPlayer
 		JMP +skipHurt
 +canHurtPlayer:
+	;; check for iframes
+	LDA invincibilityTimer
+		BEQ +
+			JMP +skipHurt
+		+
+
 	CPX player1_object
 	BEQ +doPlayer
 		LDA Object_flags,x
@@ -23,21 +29,26 @@
 		JMP RESET
 	+notGameOver
 	
-	LDA continueMap
-	STA warpMap
+	;; increment invincibility timer as we took damage
+	LDA #150 ;; about 4 seconds of invincibility
+	STA invincibilityTimer
+
+	;; comment out default code to reset player position
+	;;LDA continueMap
+	;;STA warpMap
 	
-	LDA continueX
-	STA newX
-	LDA continueY
-	STA newY
+	;;LDA continueX
+	;;STA newX
+	;;LDA continueY
+	;;STA newY
 	
-	LDA continueScreen
-	STA warpToScreen
-	STA camScreen
+	;;LDA continueScreen
+	;;STA warpToScreen
+	;;STA camScreen
 	
 	
 	
-	WarpToScreen warpToMap, warpToScreen, #$02
+	;;WarpToScreen warpToMap, warpToScreen, #$02
 		;; arg0 = warp to map.  0= map1.  1= map2.
 		;; arg1 = screen to warp to.
 		;; arg2 = screen transition type - most likely use 1 here.
