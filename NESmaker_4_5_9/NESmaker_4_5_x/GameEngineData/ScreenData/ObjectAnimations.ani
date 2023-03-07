@@ -197,15 +197,15 @@ GameItem9_0:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 10 GameItem: Effect 2
+;;;; 10 GameItem: Monster projectile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Effect 2
-;; Size = 1 by2
+;; Monster = Monster projectile
+;; Size = 2 by1
 ;; Animation = DefaultAnimation
 GameItem10_0:
-.db #$15
+.db #$08
 .db #%00000000
-.db #$25
+.db #$09
 .db #%00000000
 
 

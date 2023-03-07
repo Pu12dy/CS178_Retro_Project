@@ -38,7 +38,7 @@ GameItem8_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 GameItem9_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 2
+;; Monster: Monster projectile
 GameItem10_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
@@ -72,7 +72,7 @@ Object1_animSpeedTable:
 
 ;; Monster: Boss1-1
 Object2_animSpeedTable:
-	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$03
 
 ;; Monster: Ruin Ghost
 Object3_animSpeedTable:

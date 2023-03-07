@@ -38,9 +38,9 @@ GameItem8_ActionTypes:		;;ActionTimer / ActionTypeID
 GameItem9_ActionTypes:		;;ActionTimer / ActionTypeID
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 2
+;; Monster: Monster projectile
 GameItem10_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$05, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Effect 3
 GameItem11_ActionTypes:		;;ActionTimer / ActionTypeID
@@ -64,7 +64,7 @@ GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: Alien
 Object0_ActionTypes:
-	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$05, #$05, #$04, #$04, #$05, #$04, #$04
 
 ;; Monster: AlienShooter
 Object1_ActionTypes:
@@ -72,7 +72,7 @@ Object1_ActionTypes:
 
 ;; Monster: Boss1-1
 Object2_ActionTypes:
-	.db #$05, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$05, #$05, #$05, #$05, #$05, #$05, #$05, #$05
 
 ;; Monster: Ruin Ghost
 Object3_ActionTypes:

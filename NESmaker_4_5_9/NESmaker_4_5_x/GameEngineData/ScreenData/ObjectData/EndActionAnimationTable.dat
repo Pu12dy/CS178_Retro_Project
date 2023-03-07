@@ -38,7 +38,7 @@ GameItem8_EndAction:		;;EndAnimationType / EndActionType
 GameItem9_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Effect 2
+;; Monster: Monster projectile
 GameItem10_EndAction:		;;EndAnimationType / EndActionType
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 

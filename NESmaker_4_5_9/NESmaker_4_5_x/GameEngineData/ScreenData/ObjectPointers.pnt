@@ -223,9 +223,9 @@ GameItem9_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 10 GameItem: Effect 2
+;;;; 10 GameItem: Monster projectile
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Effect 2
+;; Monster = Monster projectile
 ;; Animations = 1
 GameItem10_Lo:
 ;; AnimationType = Default
