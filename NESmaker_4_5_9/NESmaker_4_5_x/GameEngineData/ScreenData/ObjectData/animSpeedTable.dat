@@ -1,6 +1,6 @@
 ;; Monster: Ship
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$10, #$10, #$10, #$10, #$10, #$10, #$10
+	.db #$00, #$10, #$20, #$10, #$10, #$10, #$10, #$10
 
 ;; Monster: missile
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
@@ -68,7 +68,7 @@ Object0_animSpeedTable:
 
 ;; Monster: AlienShooter
 Object1_animSpeedTable:
-	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$03, #$03, #$03, #$00, #$00, #$00, #$00
 
 ;; Monster: Boss1-1
 Object2_animSpeedTable:
@@ -76,7 +76,7 @@ Object2_animSpeedTable:
 
 ;; Monster: Ruin Ghost
 Object3_animSpeedTable:
-	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$04, #$04, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Ruin Monster2
 Object4_animSpeedTable:

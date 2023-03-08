@@ -5,41 +5,41 @@
 ;; Animations = 3
 GameItem0_Lo:
 ;; AnimationType = Straight
-	.db <GameItem0_2, <GameItem0_2
-	.db <GameItem0_0, <GameItem0_1
-	.db <GameItem0_1, <GameItem0_1
-	.db <GameItem0_0, <GameItem0_2
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
+	.db <GameItem0_0, <GameItem0_0
 
 ;; AnimationType = down
 	.db <GameItem0_2, <GameItem0_2
-	.db <GameItem0_0, <GameItem0_1
-	.db <GameItem0_1, <GameItem0_1
-	.db <GameItem0_0, <GameItem0_2
+	.db <GameItem0_2, <GameItem0_2
+	.db <GameItem0_2, <GameItem0_2
+	.db <GameItem0_2, <GameItem0_2
 
 ;; AnimationType = up
-	.db <GameItem0_2, <GameItem0_2
-	.db <GameItem0_0, <GameItem0_1
 	.db <GameItem0_1, <GameItem0_1
-	.db <GameItem0_0, <GameItem0_2
+	.db <GameItem0_1, <GameItem0_1
+	.db <GameItem0_1, <GameItem0_1
+	.db <GameItem0_1, <GameItem0_1
 
 GameItem0_Hi:
 ;; AnimationType = Straight
-	.db >GameItem0_2, >GameItem0_2
-	.db >GameItem0_0, >GameItem0_1
-	.db >GameItem0_1, >GameItem0_1
-	.db >GameItem0_0, >GameItem0_2
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
+	.db >GameItem0_0, >GameItem0_0
 
 ;; AnimationType = down
 	.db >GameItem0_2, >GameItem0_2
-	.db >GameItem0_0, >GameItem0_1
-	.db >GameItem0_1, >GameItem0_1
-	.db >GameItem0_0, >GameItem0_2
+	.db >GameItem0_2, >GameItem0_2
+	.db >GameItem0_2, >GameItem0_2
+	.db >GameItem0_2, >GameItem0_2
 
 ;; AnimationType = up
-	.db >GameItem0_2, >GameItem0_2
-	.db >GameItem0_0, >GameItem0_1
 	.db >GameItem0_1, >GameItem0_1
-	.db >GameItem0_0, >GameItem0_2
+	.db >GameItem0_1, >GameItem0_1
+	.db >GameItem0_1, >GameItem0_1
+	.db >GameItem0_1, >GameItem0_1
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

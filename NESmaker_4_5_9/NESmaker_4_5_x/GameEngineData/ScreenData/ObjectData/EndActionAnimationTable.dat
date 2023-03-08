@@ -64,11 +64,11 @@ GameItem15_EndAction:		;;EndAnimationType / EndActionType
 
 ;; Monster: Alien
 Object0_EndAction:
-	.db #$00, #$01, #$01, #$01, #$01, #$01, #$01, #$03
+	.db #$02, #$01, #$01, #$01, #$01, #$01, #$01, #$03
 
 ;; Monster: AlienShooter
 Object1_EndAction:
-	.db #$00, #$03, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$01, #$01, #$03, #$00, #$00, #$00, #$00
 
 ;; Monster: Boss1-1
 Object2_EndAction:
@@ -76,7 +76,7 @@ Object2_EndAction:
 
 ;; Monster: Ruin Ghost
 Object3_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Ruin Monster2
 Object4_EndAction:
@@ -84,7 +84,7 @@ Object4_EndAction:
 
 ;; Monster: Bug Monster
 Object5_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$03, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Bug
 Object6_EndAction:

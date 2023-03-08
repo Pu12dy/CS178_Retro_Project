@@ -64,11 +64,11 @@ GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: Alien
 Object0_ActionTypes:
-	.db #$54, #$25, #$24, #$15, #$24, #$25, #$34, #$15
+	.db #$14, #$25, #$24, #$15, #$24, #$25, #$34, #$15
 
 ;; Monster: AlienShooter
 Object1_ActionTypes:
-	.db #$04, #$05, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$24, #$35, #$24, #$25, #$00, #$00, #$00, #$00
 
 ;; Monster: Boss1-1
 Object2_ActionTypes:
@@ -76,7 +76,7 @@ Object2_ActionTypes:
 
 ;; Monster: Ruin Ghost
 Object3_ActionTypes:
-	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$24, #$35, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Ruin Monster2
 Object4_ActionTypes:
@@ -84,7 +84,7 @@ Object4_ActionTypes:
 
 ;; Monster: Bug Monster
 Object5_ActionTypes:
-	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$24, #$25, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: Bug
 Object6_ActionTypes:
