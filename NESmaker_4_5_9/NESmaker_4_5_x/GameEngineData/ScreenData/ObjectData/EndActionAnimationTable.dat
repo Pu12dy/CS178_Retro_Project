@@ -1,6 +1,6 @@
 ;; Monster: Ship
 GameItem0_EndAction:		;;EndAnimationType / EndActionType
-	.db #$00, #$00, #$00, #$09, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$03, #$00, #$00, #$00, #$00
 
 ;; Monster: missile
 GameItem1_EndAction:		;;EndAnimationType / EndActionType

@@ -2,7 +2,7 @@
 ;;;; 0 GameItem: Ship
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Monster = Ship
-;; Animations = 4
+;; Animations = 5
 GameItem0_Lo:
 ;; AnimationType = Straight
 	.db <GameItem0_0, <GameItem0_0
@@ -28,6 +28,12 @@ GameItem0_Lo:
 	.db <GameItem0_3, <GameItem0_3
 	.db <GameItem0_3, <GameItem0_3
 
+;; AnimationType = Forward
+	.db <GameItem0_4, <GameItem0_4
+	.db <GameItem0_4, <GameItem0_4
+	.db <GameItem0_4, <GameItem0_4
+	.db <GameItem0_4, <GameItem0_4
+
 GameItem0_Hi:
 ;; AnimationType = Straight
 	.db >GameItem0_0, >GameItem0_0
@@ -52,6 +58,12 @@ GameItem0_Hi:
 	.db >GameItem0_3, >GameItem0_3
 	.db >GameItem0_3, >GameItem0_3
 	.db >GameItem0_3, >GameItem0_3
+
+;; AnimationType = Forward
+	.db >GameItem0_4, >GameItem0_4
+	.db >GameItem0_4, >GameItem0_4
+	.db >GameItem0_4, >GameItem0_4
+	.db >GameItem0_4, >GameItem0_4
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

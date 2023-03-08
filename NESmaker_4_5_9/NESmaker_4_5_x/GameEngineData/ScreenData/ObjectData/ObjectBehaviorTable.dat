@@ -1,6 +1,6 @@
 ;; Monster: Ship
 GameItem0_ActionTypes:		;;ActionTimer / ActionTypeID
-	.db #$00, #$00, #$00, #$30, #$00, #$00, #$00, #$00
+	.db #$00, #$00, #$00, #$20, #$00, #$00, #$00, #$00
 
 ;; Monster: missile
 GameItem1_ActionTypes:		;;ActionTimer / ActionTypeID
