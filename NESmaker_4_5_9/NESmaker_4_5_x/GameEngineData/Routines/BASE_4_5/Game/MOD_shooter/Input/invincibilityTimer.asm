@@ -1,5 +1,5 @@
-	LDA invincibilityTimer
-	BEQ + 
-	DEC invincibilityTimer
-	+
-	RTS
+    LDA invincibilityTimer
+    BEQ + 
+    DEC invincibilityTimer
+    +
+    RTS

@@ -7,7 +7,6 @@
     BEQ +canHurtPlayer
         JMP +skipHurt
 +canHurtPlayer:
-
     LDA invincibilityTimer
         BEQ +
             JMP +skipHurt
@@ -22,8 +21,10 @@
         +notWeapon
         JMP +done
     +doPlayer
+    ChangeActionStep player1_object, #$03
     DEC myLives
     LDA myLives
+    
     BNE +notGameOver
         ;; is game over.
         JMP RESET

@@ -1,6 +1,6 @@
 ;; Monster: Ship
 GameItem0_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
-	.db #$00, #$10, #$20, #$3a, #$40, #$10, #$10, #$10
+	.db #$00, #$10, #$20, #$31, #$40, #$10, #$10, #$32
 
 ;; Monster: missile
 GameItem1_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed

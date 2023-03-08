@@ -7,7 +7,6 @@
     BEQ +canHurtPlayer
         JMP +skipHurt
 +canHurtPlayer:
-
     LDA invincibilityTimer
         BEQ +
             JMP +skipHurt
