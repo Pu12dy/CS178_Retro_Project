@@ -64,7 +64,7 @@ GameItem15_animSpeedTable:		;;AnimationGroupOffset / AnimationSpeed
 
 ;; Monster: Alien
 Object0_animSpeedTable:
-	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$03, #$03, #$03, #$03, #$03, #$03, #$03
 
 ;; Monster: AlienShooter
 Object1_animSpeedTable:
@@ -72,7 +72,7 @@ Object1_animSpeedTable:
 
 ;; Monster: Boss1-1
 Object2_animSpeedTable:
-	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$03
+	.db #$03, #$03, #$00, #$00, #$00, #$00, #$00, #$03
 
 ;; Monster: Ruin Ghost
 Object3_animSpeedTable:
@@ -90,9 +90,9 @@ Object5_animSpeedTable:
 Object6_animSpeedTable:
 	.db #$03, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: NULL
+;; Monster: Alien-Copy
 Object7_animSpeedTable:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$03, #$03, #$03, #$03, #$03, #$03, #$03, #$03
 
 ;; Monster: NULL
 Object8_animSpeedTable:

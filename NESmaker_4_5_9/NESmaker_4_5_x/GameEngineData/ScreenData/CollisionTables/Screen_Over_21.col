@@ -1,4 +1,4 @@
-;; Collision data export. Tuesday, March 7, 2023 3:45:36 PM
+;; Collision data export. Tuesday, March 7, 2023 4:18:09 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x03
 
@@ -66,7 +66,7 @@ Screen_Over_21_info:
 ;; Byte 23: Monster 3 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 24-26: MonsterGroupID:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** GROUP BYTES (Day/Night/DayTr)
-	.db #$00
+	.db #$06
 	.db #$00
 	.db #$00
 ;; Byte 27-29: Monster Palette1:  1,2,3 ==  aaaaaabb bbbbcccc ccdddddd (DayNormal/NightNormal/DayTrig/NightTrig) ***CHANGED*** Pal1 BYTES (Day/Night/DayTr)
@@ -98,9 +98,9 @@ Screen_Over_21_info:
 ;; Byte 42: Monster 4 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 43: Monster 1 Day ID
-	.db #$10
+	.db #$11
 ;; Byte 44: Monster 2 Day ID
-	.db #$10
+	.db #$11
 ;; Byte 45: Monster 3 Day ID
 	.db #$00
 ;; Byte 46: Monster 4 Day ID

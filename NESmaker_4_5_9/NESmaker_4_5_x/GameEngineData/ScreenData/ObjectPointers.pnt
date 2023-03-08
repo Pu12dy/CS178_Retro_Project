@@ -482,9 +482,26 @@ Object6_Hi:
 	.db >Object6_0, >Object6_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 7 Monster Alien-Copy
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = Alien-Copy
+;; Animations = 1
 Object7_Lo:
+;; AnimationType = Default
+	.db <Object7_0, <Object7_0
+	.db <Object7_0, <Object7_0
+	.db <Object7_0, <Object7_0
+	.db <Object7_0, <Object7_0
+
 Object7_Hi:
+;; AnimationType = Default
+	.db >Object7_0, >Object7_0
+	.db >Object7_0, >Object7_0
+	.db >Object7_0, >Object7_0
+	.db >Object7_0, >Object7_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object8_Lo:
 Object8_Hi:
