@@ -1,5 +1,5 @@
 ;; *************** DataBank01_Includes.asm ***************
-;; Script data export. Thursday, March 9, 2023 3:38:15 PM
+;; Script data export. Thursday, March 9, 2023 3:49:54 PM
 Script00:
 	.include "Routines\BASE_4_5\Game\MOD_shooter\Input\moveRight_shooter.asm"
 Script01:
@@ -22,3 +22,5 @@ Script09:
 	.include "Routines\BASE_4_5\Game\MOD_shooter\Game\hidesprites.asm"
 Script0a:
 	.include "Routines\BASE_4_5\Game\MOD_shooter\Common\doDrawSpriteHud_Shooter.asm"
+Script0b:
+	.include "Routines\BASE_4_5\Game\MOD_shooter\Common\doHandleHurtMonster_Shooter_CountMonsters.asm"
