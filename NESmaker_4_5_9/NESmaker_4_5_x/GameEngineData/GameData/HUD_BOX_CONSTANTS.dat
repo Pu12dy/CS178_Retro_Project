@@ -1,5 +1,5 @@
 ;; *************** HUD_BOX_CONSTANTS.dat ***************
-;; HUD Constants export. Wednesday, March 8, 2023 2:07:53 PM
+;; HUD Constants export. Thursday, March 9, 2023 2:55:05 PM
 BOUNDS_LEFT  = $00
 BOUNDS_RIGHT  = $ff
 BOUNDS_TOP     = $20
@@ -69,7 +69,7 @@ BOX_0_ASSET_3_X = $00
 BOX_0_ASSET_3_Y = $00
 BOX_0_ASSET_3_IMAGE EQU $00
 BOX_0_ASSET_3_STRING EQU $00
-BOX_0_ASSET_3_MAX_VALUE = $00
+BOX_0_ASSET_3_MAX_VALUE = $04
 BOX_0_ASSET_3_BLANK = $00
 BOX_0_ASSET_3_ROW = $00
 BOX_0_ASSET_3_COLUMN = $00

@@ -72,7 +72,7 @@ Object1_ActionTypes:
 
 ;; Monster: Boss1-1
 Object2_ActionTypes:
-	.db #$12, #$35, #$05, #$05, #$05, #$05, #$05, #$05
+	.db #$12, #$35, #$34, #$35, #$05, #$05, #$05, #$05
 
 ;; Monster: Ruin Ghost
 Object3_ActionTypes:
