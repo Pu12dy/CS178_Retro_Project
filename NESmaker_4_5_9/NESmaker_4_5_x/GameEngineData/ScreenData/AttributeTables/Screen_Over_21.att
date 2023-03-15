@@ -1,4 +1,4 @@
-;; Attribute data export. Thursday, March 9, 2023 9:34:55 PM
+;; Attribute data export. Wednesday, March 15, 2023 3:22:45 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x03
 .db #%00000000, #%00000000, #%00000010, #%10000000, #%00000000, #%00000000, #%00000000, #%00001000
