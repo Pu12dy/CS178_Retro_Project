@@ -94,9 +94,9 @@ Object6_EndAction:
 Object7_EndAction:
 	.db #$01, #$01, #$01, #$01, #$01, #$01, #$01, #$03
 
-;; Monster: NULL
+;; Monster: WarpMonster
 Object8_EndAction:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$07, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object9_EndAction:

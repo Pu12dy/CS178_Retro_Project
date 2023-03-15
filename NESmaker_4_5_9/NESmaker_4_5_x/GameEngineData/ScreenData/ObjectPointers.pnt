@@ -526,9 +526,26 @@ Object7_Hi:
 	.db >Object7_0, >Object7_0
 
 
-;;;;;;;;; Null Monster ;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 8 Monster WarpMonster
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = WarpMonster
+;; Animations = 1
 Object8_Lo:
+;; AnimationType = Default
+	.db <Object8_0, <Object8_0
+	.db <Object8_0, <Object8_0
+	.db <Object8_0, <Object8_0
+	.db <Object8_0, <Object8_0
+
 Object8_Hi:
+;; AnimationType = Default
+	.db >Object8_0, >Object8_0
+	.db >Object8_0, >Object8_0
+	.db >Object8_0, >Object8_0
+	.db >Object8_0, >Object8_0
+
+
 ;;;;;;;;; Null Monster ;;;;;;;;
 Object9_Lo:
 Object9_Hi:

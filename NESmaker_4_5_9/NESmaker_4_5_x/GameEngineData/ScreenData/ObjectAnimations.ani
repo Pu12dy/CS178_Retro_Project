@@ -674,3 +674,14 @@ Object7_0:
 .db #%00000010, #%00000010, #%00000010
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 8 Monster WarpMonster
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Monster = WarpMonster
+;; Size = 1 by1
+;; Animation = DefaultAnimation
+Object8_0:
+.db #$50
+.db #%00000000
+
+

@@ -94,9 +94,9 @@ Object6_ActionTypes:
 Object7_ActionTypes:
 	.db #$24, #$25, #$24, #$15, #$24, #$25, #$34, #$15
 
-;; Monster: NULL
+;; Monster: WarpMonster
 Object8_ActionTypes:
-	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$52, #$56, #$00, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object9_ActionTypes:
