@@ -64,7 +64,7 @@ GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: Alien
 Object0_ActionTypes:
-	.db #$14, #$25, #$24, #$15, #$24, #$25, #$34, #$15
+	.db #$34, #$25, #$24, #$15, #$24, #$25, #$34, #$15
 
 ;; Monster: AlienShooter
 Object1_ActionTypes:
@@ -72,7 +72,7 @@ Object1_ActionTypes:
 
 ;; Monster: Boss1-1
 Object2_ActionTypes:
-	.db #$12, #$44, #$45, #$31, #$45, #$44, #$55, #$57
+	.db #$32, #$c5, #$c4, #$c4, #$c1, #$c5, #$c4, #$57
 
 ;; Monster: Ruin Ghost
 Object3_ActionTypes:
@@ -90,13 +90,13 @@ Object5_ActionTypes:
 Object6_ActionTypes:
 	.db #$04, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Alien-Copy
+;; Monster: Alien-Shooter
 Object7_ActionTypes:
-	.db #$24, #$25, #$24, #$15, #$24, #$25, #$34, #$15
+	.db #$34, #$35, #$34, #$35, #$34, #$35, #$34, #$35
 
 ;; Monster: WarpMonster
 Object8_ActionTypes:
-	.db #$52, #$56, #$a6, #$00, #$00, #$00, #$00, #$00
+	.db #$52, #$e2, #$e2, #$e2, #$e2, #$e2, #$f2, #$36
 
 ;; Monster: NULL
 Object9_ActionTypes:

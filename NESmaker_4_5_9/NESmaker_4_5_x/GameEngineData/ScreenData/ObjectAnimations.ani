@@ -634,9 +634,9 @@ Object6_0:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 7 Monster Alien-Copy
+;;;; 7 Monster Alien-Shooter
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Alien-Copy
+;; Monster = Alien-Shooter
 ;; Size = 4 by4
 ;; Animation = DefaultAnimation
 Object7_0:

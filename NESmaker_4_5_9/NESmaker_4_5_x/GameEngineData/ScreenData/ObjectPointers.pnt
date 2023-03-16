@@ -507,9 +507,9 @@ Object6_Hi:
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;; 7 Monster Alien-Copy
+;;;; 7 Monster Alien-Shooter
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Monster = Alien-Copy
+;; Monster = Alien-Shooter
 ;; Animations = 1
 Object7_Lo:
 ;; AnimationType = Default

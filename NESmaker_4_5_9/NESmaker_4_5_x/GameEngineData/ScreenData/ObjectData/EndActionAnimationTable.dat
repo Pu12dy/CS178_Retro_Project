@@ -90,13 +90,13 @@ Object5_EndAction:
 Object6_EndAction:
 	.db #$00, #$00, #$00, #$00, #$00, #$00, #$00, #$00
 
-;; Monster: Alien-Copy
+;; Monster: Alien-Shooter
 Object7_EndAction:
 	.db #$01, #$01, #$01, #$01, #$01, #$01, #$01, #$03
 
 ;; Monster: WarpMonster
 Object8_EndAction:
-	.db #$01, #$07, #$07, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$01, #$01, #$01, #$01, #$01, #$01, #$07
 
 ;; Monster: NULL
 Object9_EndAction:
