@@ -1,4 +1,4 @@
-;; Collision data export. Wednesday, March 15, 2023 4:11:49 PM
+;; Collision data export. Wednesday, March 15, 2023 8:15:49 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -100,7 +100,7 @@ Screen_Over_01_info:
 ;; Byte 43: Monster 1 Day ID
 	.db #$12
 ;; Byte 44: Monster 2 Day ID
-	.db #$00
+	.db #$18
 ;; Byte 45: Monster 3 Day ID
 	.db #$00
 ;; Byte 46: Monster 4 Day ID

@@ -72,7 +72,7 @@ Object1_EndAction:
 
 ;; Monster: Boss1-1
 Object2_EndAction:
-	.db #$01, #$00, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$01, #$01, #$01, #$01, #$01, #$01, #$06
 
 ;; Monster: Ruin Ghost
 Object3_EndAction:
@@ -96,7 +96,7 @@ Object7_EndAction:
 
 ;; Monster: WarpMonster
 Object8_EndAction:
-	.db #$01, #$07, #$00, #$00, #$00, #$00, #$00, #$00
+	.db #$01, #$07, #$07, #$00, #$00, #$00, #$00, #$00
 
 ;; Monster: NULL
 Object9_EndAction:

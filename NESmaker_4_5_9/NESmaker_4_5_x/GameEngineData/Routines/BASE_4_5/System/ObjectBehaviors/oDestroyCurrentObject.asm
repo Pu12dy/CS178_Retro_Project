@@ -1,3 +1,3 @@
 oDestroyCurrentObject:
 
-	RTS
+    RTS

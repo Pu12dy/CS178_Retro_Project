@@ -1,4 +1,4 @@
-;; Collision data export. Wednesday, March 15, 2023 4:11:49 PM
+;; Collision data export. Wednesday, March 15, 2023 8:15:49 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -34,7 +34,7 @@ Screen_Over_00_info:
 ;; Byte 7: Path Tile mask
 	.db #$f0
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
-	.db #$20
+	.db #$1b
 ;; Byte 9: Y and X if player comes through a portal 
 	.db #$70
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) ) CHANGED ***** ObjectPaletteTriggeredNight2ID

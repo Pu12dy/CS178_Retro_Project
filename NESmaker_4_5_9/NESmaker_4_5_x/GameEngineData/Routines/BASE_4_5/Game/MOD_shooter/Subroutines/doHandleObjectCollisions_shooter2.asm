@@ -114,13 +114,18 @@
 						;;; if they have collided, it is a 1
 						;;; if not, it is a zero.
 						BEQ +skipCollision
-							
+
 							TXA
 							STA otherObject
 							;; There was a collision between a monster and a weapon.
 							;; weapon is self.
 							;; monster is other.
-							DestroyObject
+							
+							LDA screenType
+							CMP #1
+							BEQ +inBossRoom
+
+							  DestroyObject
 							;ChangeActionStep otherObject, #$07
 							
 							
@@ -129,7 +134,12 @@
 							LDX selfObject
 							DestroyObject
 							JMP +done				
+					+inBossRoom
+						LDX selfObject
+						DestroyObject
+						JMP +done
 					+skipCollision
+					in
 				+notAmonsterWeaponCollision
 				INX
 				CPX #TOTAL_MAX_OBJECTS
