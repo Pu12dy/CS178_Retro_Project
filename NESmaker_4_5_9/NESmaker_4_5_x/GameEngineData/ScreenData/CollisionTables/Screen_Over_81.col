@@ -1,4 +1,4 @@
-;; Collision data export. Friday, March 17, 2023 7:58:57 PM
+;; Collision data export. Saturday, March 18, 2023 4:38:00 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -36,7 +36,7 @@ Screen_Over_81_info:
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
 	.db #$00
 ;; Byte 9: Y and X if player comes through a portal 
-	.db #$00
+	.db #$73
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) ) CHANGED ***** ObjectPaletteTriggeredNight2ID
 	.db #$0
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 

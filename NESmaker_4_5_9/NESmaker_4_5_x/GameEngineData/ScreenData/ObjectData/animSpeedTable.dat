@@ -96,7 +96,7 @@ Object7_animSpeedTable:
 
 ;; Monster: WarpMonster
 Object8_animSpeedTable:
-	.db #$03, #$03, #$03, #$03, #$03, #$03, #$00, #$03
+	.db #$03, #$03, #$03, #$03, #$03, #$03, #$03, #$03
 
 ;; Monster: NULL
 Object9_animSpeedTable:
