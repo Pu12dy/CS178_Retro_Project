@@ -96,7 +96,7 @@ Object7_ActionTypes:
 
 ;; Monster: WarpMonster
 Object8_ActionTypes:
-	.db #$52, #$e2, #$e2, #$e2, #$e2, #$e2, #$f2, #$36
+	.db #$42, #$e2, #$e2, #$e2, #$e2, #$e2, #$d2, #$36
 
 ;; Monster: NULL
 Object9_ActionTypes:
