@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Saturday, March 18, 2023 4:38:01 PM
+;; Code Target data export. Saturday, March 18, 2023 5:27:17 PM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -84,7 +84,7 @@ SCR_MAIN_LOOP EQU "Routines\BASE_4_5\Game\MainGameLoop.asm"
 SCR_HANDLE_INPUT_SCRIPTS EQU "Routines\BASE_4_5\Game\Subroutines\doHandleInputScripts.asm"
 SCR_EXTRA_SCREEN_LOAD EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_POST_SCREEN_LOAD EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
-SCR_PICKUP_SCRIPTS EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
+SCR_PICKUP_SCRIPTS EQU "Routines\BASE_4_5\Game\CommonScripts\templatePickupScript.asm"
 SCR_SPRITE_PREDRAW EQU "Routines\BASE_4_5\Game\Subroutines\doSpritePreDraw.asm"
 SCR_SPRITE_POSTDRAW EQU "Routines\BASE_4_5\Game\Subroutines\doSpritePostDraw.asm"
 SCR_HANDLE_GAME_TIMER EQU "Routines\BASE_4_5\Game\MOD_shooter\Game\handleGameTimer_shooter.asm"

@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, March 18, 2023 4:38:00 PM
+;; Collision data export. Saturday, March 18, 2023 5:27:16 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -29,8 +29,8 @@ Screen_Over_81_info:
 ;; Byte 4: MainTileId(4) / ScreenTileID(4) CHANGED ***** ObjectPaletteTriggeredNight1ID
 	.db #$00
 ;; Byte 5: All screen bits (Respawn/DayNight/Paths/Boss/Dark/Underground/Animated/ShowText)
-	.db #$c0;; Byte 6: ScreenByte01 (Hud/Paths/DayNight/Dark/000/screenSpeed
-	.db #%10100000
+	.db #$f0;; Byte 6: ScreenByte01 (Hud/Paths/DayNight/Dark/000/screenSpeed
+	.db #%11100000
 ;; Byte 7: Path Tile mask
 	.db #$f0
 ;; Byte 8: What screen does a portal tile on this screen warp to? 

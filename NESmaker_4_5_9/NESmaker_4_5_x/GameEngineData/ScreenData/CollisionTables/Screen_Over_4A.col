@@ -1,5 +1,6 @@
-;; Collision data export. Saturday, March 18, 2023 4:38:00 PM
-;; GraphicBankID = 0x01
+;; *************** NULL SCREEN ***************
+;; Collision data export. Saturday, March 18, 2023 5:27:16 PM
+;; GraphicBankID = 0x00
 ;; PaletteID = 0x00
 
 ;; Collision:
@@ -10,7 +11,7 @@
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
-.db #%00000000, #%00000000, #%00000000, #%00000000, #%00100000, #%00000000, #%00000000, #%00000000
+.db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
 .db #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000, #%00000000
@@ -36,7 +37,7 @@ Screen_Over_4a_info:
 ;; Byte 8: What screen does a portal tile on this screen warp to? 
 	.db #$00
 ;; Byte 9: Y and X if player comes through a portal 
-	.db #$73
+	.db #$00
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) ) CHANGED ***** ObjectPaletteTriggeredNight2ID
 	.db #$0
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 

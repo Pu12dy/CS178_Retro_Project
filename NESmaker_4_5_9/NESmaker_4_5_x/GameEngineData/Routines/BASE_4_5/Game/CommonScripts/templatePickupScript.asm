@@ -14,8 +14,8 @@
         ;;;;;;;;;;;;;;;;;;;;;;;;; Here, we are setting myAmmo to 5.
         ;LDA #$05
         ;STA myAmmo
-        INC myHealth
-        LDA myHealth
+        INC myLives
+        LDA myLives
         ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
         ;;;;;;;;;;;;;;;;;;;;;;;;; Do we need to update the HUD to reflect this?
         ;;;;;;;;;;;;;;;;;;;;;;;;; If so, which element is the above variable represented in?
