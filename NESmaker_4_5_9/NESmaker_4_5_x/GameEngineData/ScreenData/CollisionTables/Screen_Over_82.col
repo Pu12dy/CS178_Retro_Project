@@ -1,6 +1,5 @@
-;; *************** NULL SCREEN ***************
-;; Collision data export. Saturday, March 18, 2023 11:12:44 PM
-;; GraphicBankID = 0x00
+;; Collision data export. Saturday, March 18, 2023 11:49:31 PM
+;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
 ;; Collision:
@@ -41,7 +40,7 @@ Screen_Over_82_info:
 ;; Byte 10: (DayMonsterBank/NightMonsterBank/DayTriggerMonsterBank/NightTriggerMonsterBank/SongIndex(4bits) ) CHANGED ***** ObjectPaletteTriggeredNight2ID
 	.db #$0
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
-	.db #$00
+	.db #$90
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -164,13 +163,13 @@ Screen_Over_82_info:
 ;; Byte 76: Special Tile Types (abxxxyyy) (x=special type 15 / y = special type 14) 
 	.db #$00
 ;; Byte 77: Tileset Layout (ABCDEFxx) (ABCDEF: 0=Main, Path,HUD / 1=screen
-	.db #$40
+	.db #$00
 ;; Byte 78: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$10
+	.db #$24
 ;; Byte 79: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$10
+	.db #$25
 ;; Byte 80: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$10
+	.db #$00
 ;; Byte 81: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
 	.db #$00
 ;; Byte 82: Tileset Layout (xxxxyyyy) (x=bank / y=tileset

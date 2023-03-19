@@ -1,5 +1,5 @@
 ;; *************** CodeTargets.asm ***************
-;; Code Target data export. Saturday, March 18, 2023 11:12:46 PM
+;; Code Target data export. Saturday, March 18, 2023 11:49:33 PM
 ROOT EQU Routines\BASE_4_5\
 SCR_MAIN EQU "Routines\BASE_4_5\System\MainASM.asm"
 SCR_HEADER EQU "Routines\BASE_4_5\System\Header.asm"
@@ -171,4 +171,5 @@ SCR_HANDLE_PATHS EQU "Routines\BASE_4_5\Game\Subroutines\blank.asm"
 SCR_COMPARE_BBOX EQU "Routines\BASE_4_5\Game\Subroutines\doCompareBoundingBoxes_multiScreen.asm"
 SCR_DRAW_BOX EQU "Routines\BASE_4_5\Game\Subroutines\doDrawBox.asm"
 SCR_EXTRA_SOUND_EFFECTS EQU "Routines\BASE_4_5\Game\Subroutines\ExtraSFX.asm"
+simpleReset EQU "C:\Users\Raymond\Downloads\NESMaker\NESmaker_4_5_9\NESmaker_4_5_x\GameEngineData\Routines\BASE_4_5\Game\inputScripts\simpleReset.asm"
 
