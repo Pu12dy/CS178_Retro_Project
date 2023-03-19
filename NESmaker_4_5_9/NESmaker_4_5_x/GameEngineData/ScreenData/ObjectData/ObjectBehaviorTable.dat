@@ -64,7 +64,7 @@ GameItem15_ActionTypes:		;;ActionTimer / ActionTypeID
 
 ;; Monster: Alien
 Object0_ActionTypes:
-	.db #$34, #$25, #$24, #$15, #$24, #$25, #$34, #$15
+	.db #$34, #$25, #$24, #$35, #$34, #$25, #$34, #$15
 
 ;; Monster: AlienShooter
 Object1_ActionTypes:

@@ -1,7 +1,7 @@
 ;; *************** UserVariables.asm ***************
 
 ;; *************** User Defined Vars ***************
-;; User Defined Vars export. Saturday, March 18, 2023 5:27:18 PM
+;; User Defined Vars export. Saturday, March 18, 2023 5:36:49 PM
 
 myLives	.dsb 1
 myAmmo	.dsb 1
