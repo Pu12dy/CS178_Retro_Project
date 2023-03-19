@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, March 18, 2023 5:36:48 PM
+;; Collision data export. Saturday, March 18, 2023 11:12:44 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x00
 
@@ -165,9 +165,9 @@ Screen_Over_81_info:
 ;; Byte 77: Tileset Layout (ABCDEFxx) (ABCDEF: 0=Main, Path,HUD / 1=screen
 	.db #$0c
 ;; Byte 78: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$35
+	.db #$30
 ;; Byte 79: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
-	.db #$11
+	.db #$31
 ;; Byte 80: Tileset Layout (xxxxyyyy) (x=bank / y=tileset
 	.db #$10
 ;; Byte 81: Tileset Layout (xxxxyyyy) (x=bank / y=tileset

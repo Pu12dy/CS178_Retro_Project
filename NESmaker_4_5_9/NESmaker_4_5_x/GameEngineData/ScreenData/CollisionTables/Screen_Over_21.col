@@ -1,4 +1,4 @@
-;; Collision data export. Saturday, March 18, 2023 5:36:48 PM
+;; Collision data export. Saturday, March 18, 2023 11:12:43 PM
 ;; GraphicBankID = 0x01
 ;; PaletteID = 0x03
 
@@ -42,7 +42,7 @@ Screen_Over_21_info:
 ;; Byte 11: Using this for needed bits. (BIT 0 = warp to underworld if true.)(xyyy0123) x=has 8x8 pixels, yyy = GamesState 0=showTextOnLoad, 1=underground,2=animated,3=warp 
 	.db #$00
 ;; Byte 12: Monster 1 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
-	.db #$f3
+	.db #$3a
 ;; Byte 13: Monster 2 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 14: Monster 3 Origin Day Normal (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
@@ -98,7 +98,7 @@ Screen_Over_21_info:
 ;; Byte 42: Monster 4 Origin Night Triggered (yyyyxxxx) if not placed then (111100xx) where x is: 01=random 10=edgespawn 11=disabled
 	.db #$f3
 ;; Byte 43: Monster 1 Day ID
-	.db #$11
+	.db #$04
 ;; Byte 44: Monster 2 Day ID
 	.db #$11
 ;; Byte 45: Monster 3 Day ID

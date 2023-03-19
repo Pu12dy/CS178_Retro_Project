@@ -1368,7 +1368,7 @@
     <PpuExtraScanlinesAfterNmi>0</PpuExtraScanlinesAfterNmi>
     <RamPowerOnState>AllZeros</RamPowerOnState>
     <ShowLagCounter>false</ShowLagCounter>
-    <EmulationSpeed>75</EmulationSpeed>
+    <EmulationSpeed>200</EmulationSpeed>
     <TurboSpeed>300</TurboSpeed>
     <RewindSpeed>100</RewindSpeed>
   </EmulationInfo>
@@ -1916,8 +1916,8 @@
     <Y>0</Y>
   </WindowLocation>
   <WindowSize>
-    <Width>930</Width>
-    <Height>920</Height>
+    <Width>932</Width>
+    <Height>932</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>
