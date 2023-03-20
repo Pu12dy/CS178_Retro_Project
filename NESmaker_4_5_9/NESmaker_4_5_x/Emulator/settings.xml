@@ -1368,7 +1368,7 @@
     <PpuExtraScanlinesAfterNmi>0</PpuExtraScanlinesAfterNmi>
     <RamPowerOnState>AllZeros</RamPowerOnState>
     <ShowLagCounter>false</ShowLagCounter>
-    <EmulationSpeed>200</EmulationSpeed>
+    <EmulationSpeed>100</EmulationSpeed>
     <TurboSpeed>300</TurboSpeed>
     <RewindSpeed>100</RewindSpeed>
   </EmulationInfo>
@@ -1912,12 +1912,12 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>259</X>
-    <Y>0</Y>
+    <X>415</X>
+    <Y>40</Y>
   </WindowLocation>
   <WindowSize>
-    <Width>932</Width>
-    <Height>932</Height>
+    <Width>930</Width>
+    <Height>920</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>
