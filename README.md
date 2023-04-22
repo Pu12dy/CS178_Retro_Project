@@ -22,6 +22,7 @@ We created a side-scrolling space-themed NES shooter game in the style of classi
 * A cohesive game experience with title screens, level transitions,  boss fights, and more!
 
 ## Demo Video:
+https://youtu.be/ooJXKm4L-iI
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/ooJXKm4L-iI/0.jpg" 
